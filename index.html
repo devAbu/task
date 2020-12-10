@@ -17,6 +17,13 @@
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- TOASTIFY -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -26,13 +33,22 @@
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username" id="login-userName" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input
+                type="password"
+                placeholder="Password"
+                id="login-password"
+              />
             </div>
-            <input type="button" value="Login" class="btn solid" />
+            <input
+              type="button"
+              value="Login"
+              class="btn solid"
+              id="login-btn"
+            />
             <p class="social-text">Or Sign in with social platforms</p>
             <div class="social-media">
               <a href="#" class="social-icon">
@@ -52,18 +68,32 @@
           <form action="#" class="sign-up-form hidden">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" id="register-email" />
             </div>
             <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
+              <i class="fas fa-user"></i>
+              <input
+                type="text"
+                placeholder="Username"
+                id="register-userName"
+              />
             </div>
+
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input
+                type="password"
+                placeholder="Password"
+                id="register-password"
+              />
             </div>
-            <input type="button" class="btn" value="Sign up" />
+            <input
+              type="button"
+              class="btn"
+              value="Sign up"
+              id="register-btn"
+            />
             <p class="social-text">Or Sign up with social platforms</p>
             <div class="social-media">
               <a href="#" class="social-icon">
@@ -110,5 +140,11 @@
     </div>
 
     <script src="assets/js/main.js"></script>
+
+    <!-- TOASTIFY -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
   </body>
 </html>
