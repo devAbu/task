@@ -1,6 +1,6 @@
 const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".container");
+const container = document.querySelector(".container-index");
 const sign_in_form = document.querySelector(".sign-in-form");
 const sign_up_form = document.querySelector(".sign-up-form");
 const sign_in = document.querySelector("#login-btn");
