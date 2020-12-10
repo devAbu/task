@@ -55,7 +55,7 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
-.container {
+.container-index {
   position: relative;
   width: 100%;
   background-color: #fff;
@@ -190,7 +190,7 @@ form.sign-in-form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.container:before {
+.container-index:before {
   content: "";
   position: absolute;
   height: 2000px;
@@ -556,7 +556,133 @@ section.sponsors img {
   height: 150px;
   margin-bottom: 3.5em;
 }
+section.sponsors img.gold-partner {
+  margin: 2em 2em;
+  height: 55px;
+}
+section.sponsors img.big-img {
+  height: 85px;
+}
 section.sponsors img:hover {
   animation: bounce;
   animation-duration: 1s;
+}
+section.sponsors .images-box {
+  padding: 2.5% 10%;
+}
+section.tracks {
+  text-align: center;
+}
+section.tracks h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+section.tracks p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.tracks img {
+  height: 125px;
+  border: 1px solid #dee2e6;
+  border-radius: 15px;
+}
+section.tracks .col-6 {
+  margin-bottom: 5em;
+}
+section.tracks .line {
+  border-top: 2px solid #82cae4;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.prizes {
+  margin-top: 5%;
+  text-align: center;
+}
+section.prizes h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+section.prizes p {
+  color: gray;
+  margin-bottom: 1.5em;
+}
+section.faq {
+  background-color: #877ea0;
+  text-align: center;
+}
+section.faq h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+section.faq h2,
+section.faq p {
+  color: white;
+}
+section.faq p {
+  font-size: 18px;
+}
+section.faq ul li {
+  text-align: left;
+  padding: 1em;
+}
+section.faq ul i {
+  color: gray;
+}
+section.faq ul i.ml-2 {
+  margin-left: 2%;
+}
+section.team {
+  text-align: center;
+}
+section.team h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+section.team img {
+  border-radius: 50%;
+  height: 150px;
+  margin-bottom: 1em;
+}
+section.team h5,
+section.team h6 {
+  font-weight: 700;
+}
+section.team h6 {
+  color: gray;
+}
+section.team .col-3 {
+  margin-bottom: 2em;
+}
+section.team .fab.ml-10 {
+  margin-left: 10%;
+}
+section.team .card:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease;
+}
+section.schedule {
+  text-align: center;
+  background-color: #82cae4;
+}
+section.schedule h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+section.schedule img {
+  border-radius: 50%;
+  height: 150px;
+  margin-bottom: 1em;
+}
+section.schedule .col-3 {
+  margin-bottom: 2em;
+}
+section.schedule .fab.ml-10 {
+  margin-left: 10%;
+}
+section.schedule .card:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease;
 }
